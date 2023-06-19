@@ -810,7 +810,7 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: 'http://waline.gu-chen.top/'
+  serverURL: 'https://waline.gu-chen.top/'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
