@@ -43,7 +43,7 @@ jobs:
 
     - name: Deploy hexo blog with GitHub Token
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd ./public
         git init
@@ -52,8 +52,6 @@ jobs:
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
 
-        # 添加 Token 到推送地址（无需 SSH）
         git remote add origin https://x-access-token:${PUBLISH_TOKEN}@github.com/GayFirends/gayfirends.github.io.git
-
-        # 推送到 master 分支
+        git branch -M master
         git push --force origin master:master
