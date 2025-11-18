@@ -20,7 +20,7 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v4
       with:
-        node-version: '18' # Node 12 已 EOL，建议升级到 18
+        node-version: '18'
 
     - name: Cache node modules
       uses: actions/cache@v4
@@ -41,13 +41,19 @@ jobs:
         hexo clean
         hexo generate
 
-    - name: Deploy hexo blog
-      env: 
-        GITHUB_REPO: github.com/GayFirends/gayfirends.github.io
+    - name: Deploy hexo blog with GitHub Token
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        cd ./public && git init
-        git config user.name "GayFirends"
-        git config user.email "kejizhai@hotmail.com"
+        cd ./public
+        git init
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --force --quiet "git@github.com:GayFirends/gayfirends.github.io.git" master:master
+
+        # 添加 Token 到推送地址（无需 SSH）
+        git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/GayFirends/gayfirends.github.io.git
+
+        # 推送到 master 分支
+        git push --force origin master:master
