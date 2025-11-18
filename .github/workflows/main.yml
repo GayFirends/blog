@@ -53,7 +53,7 @@ jobs:
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
 
         # 添加 Token 到推送地址（无需 SSH）
-        git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/GayFirends/gayfirends.github.io.git
+        git remote add origin https://x-access-token:${PUBLISH_TOKEN}@github.com/GayFirends/gayfirends.github.io.git
 
         # 推送到 master 分支
         git push --force origin master:master
