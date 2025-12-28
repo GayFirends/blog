@@ -12,6 +12,8 @@ jobs:
   blog-cicd:
     name: Hexo blog build & deploy
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout codes
