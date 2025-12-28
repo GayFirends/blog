@@ -45,7 +45,7 @@ jobs:
 
     - name: Deploy hexo blog with GitHub Token
       env:
-        PUBLISH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
         cd ./public
         git init
