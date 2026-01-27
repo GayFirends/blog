@@ -460,7 +460,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://guchen1-my.sharepoint.com/personal/guchen_guchen1_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=d11c6766-af20-4226-a68c-a498db63ea41&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwOGQ5YjkxMC03YTZiLTQ1ZTAtODY2NC04YzA4NDNhODM2NTYiLCJhcHBfZGlzcGxheW5hbWUiOiJPcGVuTGlzdCIsImFwcGlkIjoiZjBlM2NhZDktMWJmMy00MDA2LTk5OTktMWExYTFlMWE0YWUwIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2d1Y2hlbjEtbXkuc2hhcmVwb2ludC5jb21AYjllNWQwNzQtNzMyZS00MDViLTg0ZmEtZGEzZTJmNzQzODEwIiwiZXhwIjoiMTc2Nzk0OTEyMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ08vZGdzc0dFQUFhRmxaSGNtZFNYelJzVmtWcE0xSklVRFZrTVRSb1FVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJS7sofe1-c-EAUaDjIwLjE5MC4xNDQuMTY5KixGdzcwaTY1RzNVc1gwQUNReTBZcGtCSzVndzNyN0poa2hBR3pWcXYwTmQwPTChATgBQhCh6z8KSoAAYGZ-C_1Og-CqShBoYXNoZWRwcm9vZnRva2VuUghbImttc2kiXWokMDBhYTAzODktYjk1NC1kZTM1LTNlYWUtYjY1NDdlNGFhNmVlcikwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDU0YjIwMDM0OEBsaXZlLmNvbXoBMoIBEgl00OW5LnNbQBGE-to-L3Q4EJIBA-i-sJoBA-mhvqIBHmd1Y2hlbkBndWNoZW4xLm9ubWljcm9zb2Z0LmNvbaoBEDEwMDMyMDA1NEIyMDAzNDiyAQ5hbGxmaWxlcy53cml0ZcgBAQ.VVavfP10-oP3Akck2U1-3TXoUIURi3Dr5qmdNPgk564&ApiVersion=2.0
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -479,7 +479,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "Make Harder,Make Better,Make Faster,Make Stronger"
+    text: "？"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -532,7 +532,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -886,7 +886,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -897,7 +897,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -926,7 +926,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -943,7 +943,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
@@ -965,7 +965,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -976,7 +976,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -990,7 +990,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://s2.loli.net/2023/03/22/18xSEXHujnGWV73.jpg
+  banner_img: https://s2.loli.net/2026/01/27/YJDFokKSfIxWE6V.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
